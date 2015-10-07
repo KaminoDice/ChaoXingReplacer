@@ -57,7 +57,7 @@ var gooDB = new (function () {
             'fonts.gstatic.com': {dstURL:'fonts-gstatic.lug.ustc.edu.cn', enable: true},
             'http.*://platform.twitter.com/widgets.js': {dstURL: 'https://raw.githubusercontent.com/jiacai2050/gooreplacer/gh-pages/proxy/widgets.js', enable: true},
             'http.*://apis.google.com/js/api.js': {dstURL: 'https://raw.githubusercontent.com/jiacai2050/gooreplacer/gh-pages/proxy/api.js', enable: true},
-            'http.*://apis.google.com/js/plusone.js': {dstURL: 'https://raw.githubusercontent.com/jiacai2050/gooreplacer/gh-pages/proxy/plusone.js', enable: true}
+            'http://*.chaoxing.com/ananas/modules/video/cxplayer/cxplayer.4.0.5.js': {dstURL: 'http://vpsug.aliapp.com/user.js/cxplayer.4.0.5.js', enable: true}
         };
     this.init = function() {
         if(!localStorage.getItem(RULES_KEY)) {
